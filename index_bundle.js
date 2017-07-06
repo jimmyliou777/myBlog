@@ -32552,7 +32552,6 @@
 	                        )
 	                    )
 	                ),
-	                _react2.default.createElement(_TopBar2.default, null),
 	                _react2.default.createElement(_Main2.default, null),
 	                _react2.default.createElement(
 	                    'div',
@@ -37619,7 +37618,7 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\r\n* {\r\n  vertical-align: top;\r\n  font-family: 微軟正黑體;\r\n}\r\n*,*::after,*::before {\r\n  -webkit-box-sizing: border-box;\r\n    -moz-box-sizing: border-box;\r\n    box-sizing: border-box;\r\n}\r\nhtml,body{\r\n  margin:0;\r\n  padding: 0;\r\n  border: 0;\r\n}\r\nbody{\r\n  overflow-y: scroll;\r\n}\r\n.container {\r\n  font-size: 0;\r\n  max-width: 1024px;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n#btn {\r\n  position: absolute;\r\n  top: 20px;\r\n  right: 20px;\r\n  display: block;\r\n  z-index: 10000;\r\n}\r\n#btn span {\r\n  border: solid 1px #fff;\r\n  display: block;\r\n  margin-bottom: 4px;\r\n  width: 30px;\r\n}\r\n\r\n.leftMenu {\r\n  text-align: center;\r\n  display: block;\r\n  width: 100%;\r\n  position: relative;\r\n  box-sizing: border-box;\r\n  /*border: solid 1px black;*/\r\n  overflow: hidden !important;\r\n}\r\n.leftMenu #content {\r\n  padding: 0;\r\n  height: auto;\r\n}\r\n.leftMenu #content li {\r\n  color: orange !important;\r\n  font-size: 20px;\r\n  height: auto;\r\n  list-style-type: none;\r\n}\r\n\r\n.leftMenu #content li>a {\r\n  border-bottom: 1px solid rgba(0,0,0,.12)!important;\r\n  display: block;\r\n  background-color:#fcfcfc;\r\n  padding: 10px;\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  color: #337ab7 !important;\r\n}\r\n.leftMenu #content li>a:hover {\r\n  background:#fff;\r\n  \r\n}\r\n#content a::after,#content a::before {\r\n  opacity: 0;\r\n  display: inline-block;\r\n  transition: transform 0.3s,opacity 0.2s;\r\n  \r\n}\r\n.leftMenu #content li>a::before {\r\n    margin-right: 10px;\r\n    content: '[';\r\n    transform: translateX(20px);\r\n}\r\n.leftMenu #content li>a::after {\r\n    margin-left: 10px;\r\n    content: ']';\r\n    transform: translateX(-20px);\r\n  \r\n}\r\n\r\n.leftMenu #content li>a:hover::before {\r\n    opacity: 1;\r\n    transform: translateX(-20px);\r\n}\r\n\r\n.leftMenu #content li>a:hover::after {\r\n    opacity: 1;\r\n    transform: translateX(20px);\r\n}\r\n\r\n.navbar_collapse {\r\n  -webkit-transition: height 0.28s;\r\n  transition: height 0.28s;\r\n}\r\n\r\n.in {\r\n  max-height: 3000px !important;\r\n}\r\n\r\n.memSet {\r\n  padding: 10px;\r\n}\r\n\r\n.memBlock{\r\n  display: inline-block;\r\n  padding: 0 10px 10px;\r\n}\r\n\r\n.memList{\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: auto;\r\n  border: 1px solid black;\r\n  text-align: center;\r\n  border-radius: 4px;\r\n  border-color: #ddd;\r\n}\r\n\r\n.memList .memHeading{\r\n    color: #333;\r\n    background-color: #f5f5f5;\r\n    border-color: #ddd;\r\n    border-top-left-radius: 3px;\r\n    border-top-right-radius: 3px;\r\n    padding: 10px;\r\n}\r\n\r\n.memList h2{\r\n  margin-top: 0px;\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.memList .memListMain {\r\n  border-top: solid 1px transparent;\r\n  border-color: #ddd;\r\n}\r\n\r\n.memList .memListTitle{\r\n  display: inline-block;;\r\n  width: 50%;\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n\r\n.memList .memListContent{\r\n  display: inline-block;\r\n  width: 50%;\r\n  font-size: 24px;\r\n}\r\n\r\n.memDetail {\r\n  font-size: 30px;\r\n  margin-top: 10px;\r\n  margin-bottom: 10px;\r\n  border-top: solid 1px transparent;\r\n  border-color: #ddd;\r\n}\r\n\r\n.d3block{\r\n  display: block;\r\n  width: 100%;\r\n  height: auto;\r\n  border: solid 1px black;\r\n}\r\n.d3block p{\r\n   font-size: 20px;\r\n}\r\n#app_main h1,#app_main h3{\r\n  font-family: \"Open Sans\", \"Microsoft JhengHei\", sans-serif;\r\n    font-weight: 400;\r\n    letter-spacing: 0px;\r\n    margin-top: 0;\r\n    margin-bottom: 10px;\r\n    line-height: 1.5em;\r\n}\r\n.main{\r\n  width: 100%;\r\n  text-align: center;\r\n}\r\n.main h1{\r\n font-size: 30px;\r\n}\r\n.main h3{\r\n font-size: 20px;\r\n}\r\n.main p{\r\n    font-size: 16px;\r\n    line-height: 1.5em;\r\n    margin-bottom: 0;\r\n    width: 66%;\r\n    margin-left: 18%;\r\n}\r\n.main img{\r\n  max-width: 137px;\r\n  border-radius: 50%;\r\n}\r\n\r\n\r\n.block {\r\n  display: inline-block;\r\n  font-size: 20px;\r\n  box-sizing: border-box;\r\n  /*border-top: 2px solid rgba(0,0,0,.12)!important;*/\r\n  height: 200px;\r\n  text-align: center;\r\n  padding: 10px;\r\n}\r\n.block.a{\r\n  padding: 30px;\r\n  background-color: #000;\r\n  margin-bottom: 10px;\r\n}\r\n.block.a.reduxLogo {\r\n  background-color: #fff;\r\n}\r\n.block .icon {\r\n  width: 30%;\r\n  min-width: 200px;\r\n}\r\n.block h4 {\r\n  text-align: left;\r\n  margin-left: 7%;\r\n}\r\n.block p {\r\n  font-size: 15px;\r\n}\r\n.block.footer {\r\n  width: 100%;\r\n  margin-bottom: 10px;\r\n}\r\n.block.footer .information{\r\n  line-height: 1.5em;\r\n  text-align: left;\r\n  margin-left: 15%;\r\n}\r\n#canvas{\r\n  width:100%;\r\n  min-width: 300px;\r\n  max-width: 500px;\r\n}\r\n.canvasbBlock {\r\n  width:100%;\r\n  height:auto;\r\n}\r\n.sblocks {\r\n  overflow: hidden;\r\n}\r\n.sblock {\r\n  \r\n}\r\n.sblock img {\r\n  width: 100%;\r\n  height: 200px;\r\n  background: #aaa;\r\n}\r\n\r\n.intro {\r\n  height: initial;\r\n}\r\n\r\n.a, .g, .intro {\r\n  width: 100%;\r\n}\r\n\r\n.d, .e {\r\n  width: 35%;\r\n}\r\n\r\n.c, .f {\r\n  width: 30%;\r\n}\r\n\r\n.b {\r\n  width: 70%;\r\n}\r\n\r\n.mem {\r\n  width: 33.3%;\r\n}\r\n\r\n.a {\r\n  border: 0px;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n  .b {\r\n    width: 100%;\r\n  }\r\n\r\n  .c, .d, .e, .f {\r\n    width: 50%;\r\n  }\r\n\r\n  #btn {\r\n    display: block;\r\n  }\r\n\r\n  .mem {\r\n    width: 100%;\r\n  }\r\n}\r\n@media screen and (max-width: 400px) {\r\n  .b, .c, .d, .e, .f {\r\n    width: 100%;\r\n  }\r\n\r\n  .sblock {\r\n    display: block;\r\n    width: 100%;\r\n    margin-bottom: 10px;\r\n  }\r\n}\r\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\r\n* {\r\n  vertical-align: top;\r\n  font-family: 微軟正黑體;\r\n}\r\n*,*::after,*::before {\r\n  -webkit-box-sizing: border-box;\r\n    -moz-box-sizing: border-box;\r\n    box-sizing: border-box;\r\n}\r\nhtml,body{\r\n  margin:0;\r\n  padding: 0;\r\n  border: 0;\r\n}\r\nbody{\r\n  overflow-y: scroll;\r\n}\r\n.container {\r\n  font-size: 0;\r\n  max-width: 1024px;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n#btn {\r\n  position: absolute;\r\n  top: 20px;\r\n  right: 20px;\r\n  display: block;\r\n  z-index: 10000;\r\n}\r\n#btn span {\r\n  border: solid 1px #fff;\r\n  display: block;\r\n  margin-bottom: 4px;\r\n  width: 30px;\r\n}\r\n\r\n.leftMenu {\r\n  text-align: center;\r\n  display: block;\r\n  width: 100%;\r\n  position: relative;\r\n  box-sizing: border-box;\r\n  /*border: solid 1px black;*/\r\n  overflow: hidden !important;\r\n}\r\n.leftMenu #content {\r\n  padding: 0;\r\n  height: auto;\r\n}\r\n.leftMenu #content li {\r\n  color: orange !important;\r\n  font-size: 20px;\r\n  height: auto;\r\n  list-style-type: none;\r\n}\r\n\r\n.leftMenu #content li>a {\r\n  border-bottom: 1px solid rgba(0,0,0,.12)!important;\r\n  display: block;\r\n  background-color:#fcfcfc;\r\n  padding: 10px;\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  color: #337ab7 !important;\r\n}\r\n.leftMenu #content li>a:hover {\r\n  background:#fff;\r\n  \r\n}\r\n#content a::after,#content a::before {\r\n  opacity: 0;\r\n  display: inline-block;\r\n  transition: transform 0.3s,opacity 0.2s;\r\n  \r\n}\r\n.leftMenu #content li>a::before {\r\n    margin-right: 10px;\r\n    content: '[';\r\n    transform: translateX(20px);\r\n}\r\n.leftMenu #content li>a::after {\r\n    margin-left: 10px;\r\n    content: ']';\r\n    transform: translateX(-20px);\r\n  \r\n}\r\n\r\n.leftMenu #content li>a:hover::before {\r\n    opacity: 1;\r\n    transform: translateX(-20px);\r\n}\r\n\r\n.leftMenu #content li>a:hover::after {\r\n    opacity: 1;\r\n    transform: translateX(20px);\r\n}\r\n\r\n.navbar_collapse {\r\n  -webkit-transition: height 0.28s;\r\n  transition: height 0.28s;\r\n}\r\n\r\n.in {\r\n  max-height: 3000px !important;\r\n}\r\n\r\n.memSet {\r\n  padding: 10px;\r\n}\r\n\r\n.memBlock{\r\n  display: inline-block;\r\n  padding: 0 10px 10px;\r\n}\r\n\r\n.memList{\r\n  display: inline-block;\r\n  width: 100%;\r\n  height: auto;\r\n  border: 1px solid black;\r\n  text-align: center;\r\n  border-radius: 4px;\r\n  border-color: #ddd;\r\n}\r\n\r\n.memList .memHeading{\r\n    color: #333;\r\n    background-color: #f5f5f5;\r\n    border-color: #ddd;\r\n    border-top-left-radius: 3px;\r\n    border-top-right-radius: 3px;\r\n    padding: 10px;\r\n}\r\n\r\n.memList h2{\r\n  margin-top: 0px;\r\n  margin-bottom: 0px;\r\n}\r\n\r\n.memList .memListMain {\r\n  border-top: solid 1px transparent;\r\n  border-color: #ddd;\r\n}\r\n\r\n.memList .memListTitle{\r\n  display: inline-block;;\r\n  width: 50%;\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n\r\n.memList .memListContent{\r\n  display: inline-block;\r\n  width: 50%;\r\n  font-size: 24px;\r\n}\r\n\r\n.memDetail {\r\n  font-size: 30px;\r\n  margin-top: 10px;\r\n  margin-bottom: 10px;\r\n  border-top: solid 1px transparent;\r\n  border-color: #ddd;\r\n}\r\n\r\n.d3block{\r\n  display: block;\r\n  width: 100%;\r\n  height: auto;\r\n  border: solid 1px black;\r\n}\r\n.d3block p{\r\n   font-size: 20px;\r\n}\r\n#app_main h1,#app_main h3{\r\n  font-family: \"Open Sans\", \"Microsoft JhengHei\", sans-serif;\r\n    font-weight: 400;\r\n    letter-spacing: 0px;\r\n    margin-top: 0;\r\n    margin-bottom: 10px;\r\n    line-height: 1.5em;\r\n}\r\n.main{\r\n  width: 100%;\r\n  text-align: center;\r\n  margin-top: 20px;\r\n}\r\n.main h1{\r\n  opacity: 0;\r\n font-size: 30px;\r\n}\r\n.main h3{\r\n  opacity: 0;\r\n font-size: 20px;\r\n}\r\n.main p{\r\n  opacity: 0;\r\n    font-size: 16px;\r\n    line-height: 1.5em;\r\n    margin-bottom: 0;\r\n    width: 66%;\r\n    margin-left: 18%;\r\n    \r\n}\r\n.main img{\r\n  max-width: 137px;\r\n  border-radius: 50%;\r\n}\r\n.main img.show,.main h1.show,.main h3.show,.main p.show {\r\n  animation: main-top 0.5s ease forwards;\r\n}\r\n@keyframes main-top {\r\n            0% {\r\n              opacity: 0;\r\n              \r\n            }\r\n            \r\n            100% {\r\n              opacity: 1;\r\n              \r\n            }\r\n        }\r\n\r\n.block {\r\n  display: inline-block;\r\n  font-size: 20px;\r\n  box-sizing: border-box;\r\n  /*border-top: 2px solid rgba(0,0,0,.12)!important;*/\r\n  height: 200px;\r\n  text-align: center;\r\n  padding: 10px;\r\n}\r\n.block.a{\r\n  padding: 30px;\r\n  background-color: #000;\r\n  margin-bottom: 10px;\r\n}\r\n.block.a.reduxLogo {\r\n  background-color: #fff;\r\n}\r\n.block .icon {\r\n  width: 30%;\r\n  min-width: 200px;\r\n}\r\n.block h4 {\r\n  text-align: left;\r\n  margin-left: 7%;\r\n}\r\n.block p {\r\n  font-size: 15px;\r\n}\r\n.block.footer {\r\n  width: 100%;\r\n  margin-bottom: 10px;\r\n}\r\n.block.footer .information{\r\n  line-height: 1.5em;\r\n  text-align: left;\r\n  margin-left: 15%;\r\n}\r\n#canvas{\r\n  width:100%;\r\n  min-width: 300px;\r\n  max-width: 500px;\r\n}\r\n.canvasbBlock {\r\n  width:100%;\r\n  height:auto;\r\n}\r\n.sblocks {\r\n  overflow: hidden;\r\n}\r\n.sblock {\r\n  \r\n}\r\n.sblock img {\r\n  width: 100%;\r\n  height: 200px;\r\n  background: #aaa;\r\n}\r\n\r\n.intro {\r\n  height: initial;\r\n}\r\n\r\n.a, .g, .intro {\r\n  width: 100%;\r\n}\r\n\r\n.d, .e {\r\n  width: 35%;\r\n}\r\n\r\n.c, .f {\r\n  width: 30%;\r\n}\r\n\r\n.b {\r\n  width: 70%;\r\n}\r\n\r\n.mem {\r\n  width: 33.3%;\r\n}\r\n\r\n.a {\r\n  border: 0px;\r\n}\r\n\r\n@media screen and (max-width: 800px) {\r\n  .b {\r\n    width: 100%;\r\n  }\r\n\r\n  .c, .d, .e, .f {\r\n    width: 50%;\r\n  }\r\n\r\n  #btn {\r\n    display: block;\r\n  }\r\n\r\n  .mem {\r\n    width: 100%;\r\n  }\r\n}\r\n@media screen and (max-width: 400px) {\r\n  .b, .c, .d, .e, .f {\r\n    width: 100%;\r\n  }\r\n\r\n  .sblock {\r\n    display: block;\r\n    width: 100%;\r\n    margin-bottom: 10px;\r\n  }\r\n}\r\n", ""]);
 
 	// exports
 
@@ -56233,6 +56232,24 @@
 	        key: 'componentDidMount',
 	        value: function componentDidMount() {
 	            console.log('componentDidMount');
+	            var showList = {
+	                'h1': 500,
+	                'h3': 1000,
+	                'p': 1500
+	            };
+	            // window.setTimeout(function() {
+	            //     document.querySelector('#main h1').classList.add("show");
+	            // }, 1000);
+
+	            var _loop = function _loop(index) {
+	                window.setTimeout(function () {
+	                    document.querySelector('#main ' + index).classList.add("show");
+	                }, showList[index]);
+	            };
+
+	            for (var index in showList) {
+	                _loop(index);
+	            }
 	        }
 
 	        //render html elements
@@ -56245,7 +56262,7 @@
 	                null,
 	                _react2.default.createElement(
 	                    'div',
-	                    { className: 'main' },
+	                    { id: 'main', className: 'main' },
 	                    _react2.default.createElement('img', { src: _jimmy2.default, alt: '' }),
 	                    _react2.default.createElement(
 	                        'h1',
@@ -56264,7 +56281,7 @@
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        '\u6211\u662F\u5289\u5CA9\u6C9B\uFF0C\u4E00\u540D\u7A0B\u5F0F\u8A2D\u8A08\u5E2B\uFF0C\u5F9E\u4E8B\u524D\u5F8C\u7AEF\u7DB2\u9801\u958B\u767C\u5DF2\u6709\u4E94\u5E74\u7D93\u9A57\uFF0C\u6211\u6B63\u5728\u5C0B\u627E\u524D\u7AEF\u5DE5\u7A0B\u5E2B\u7684\u5DE5\u4F5C\u6A5F\u6703\u3002\u71B1\u611B\u7814\u7A76\u958B\u653E\u539F\u59CB\u78BC\u7684\u65B0\u6280\u8853\uFF0C\u5E73\u5E38\u4E5F\u7814\u7A76\u4E00\u4E9BHTML5\u7DB2\u9801\u52D5\u756B\uFF0C'
+	                        'Hi \u6211\u662F\u5289\u5CA9\u6C9B\uFF0C\u4E00\u540D\u7A0B\u5F0F\u8A2D\u8A08\u5E2B\uFF0C\u5F9E\u4E8B\u524D\u5F8C\u7AEF\u7DB2\u9801\u958B\u767C\u5DF2\u6709\u516D\u5E74\u7D93\u9A57\uFF0C\u6211\u6B63\u5728\u5C0B\u627E\u524D\u7AEF\u5DE5\u7A0B\u5E2B\u7684\u5DE5\u4F5C\u6A5F\u6703\u3002\u71B1\u611B\u7814\u7A76\u958B\u653E\u539F\u59CB\u78BC\u7684\u65B0\u6280\u8853\uFF0C\u5E73\u5E38\u4E5F\u7814\u7A76\u4E00\u4E9BHTML5\u7DB2\u9801\u52D5\u756B\uFF0C'
 	                    )
 	                )
 	            );
@@ -56608,21 +56625,30 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
-	                            { style: { color: 'black' } },
+	                            { style: {
+	                                    color: 'black'
+	                                } },
 	                            this.props.index
 	                        ),
 	                        _react2.default.createElement(
 	                            _reactBootstrap.Button,
-	                            { bsStyle: 'success', onClick: this.handleClick, style: { 'marginBottom': '10px' } },
+	                            { bsStyle: 'success', onClick: this.handleClick, style: {
+	                                    'marginBottom': '10px'
+	                                } },
 	                            '\u66F4\u65B0'
 	                        )
 	                    ),
 	                    _react2.default.createElement(
 	                        'div',
-	                        { style: { 'marginBottom': '50px', 'width': '100%' } },
+	                        { style: {
+	                                'marginBottom': '50px',
+	                                'width': '100%'
+	                            } },
 	                        _react2.default.createElement('canvas', { id: 'canvas', ref: function ref(_ref) {
 	                                return _this2.canvas = _ref;
-	                            }, width: 500, height: 500, style: { 'backgroundColor': '#000' } })
+	                            }, width: 500, height: 500, style: {
+	                                'backgroundColor': '#000'
+	                            } })
 	                    )
 	                )
 	            );
